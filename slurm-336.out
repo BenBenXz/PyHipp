@@ -1,0 +1,2 @@
+sbatch --dependency=afterok:336 /data/src/PyHipp/fsall-slurm.sh
+Submitted batch job 337
