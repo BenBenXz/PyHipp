@@ -11,6 +11,11 @@
 ## /SBATCH -p general # partition (queue)
 #SBATCH -o rpllfp-slurm.%N.%j.out # STDOUT
 #SBATCH -e rpllfp-slurm.%N.%j.err # STDERR
+<<<<<<< HEAD
+=======
+
+# LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
+>>>>>>> 2e1efa25ef3ec30fad31de89a887ea842b658319
 python -u -c "import PyHipp as pyh; \
 import time; \
 pyh.RPLLFP(saveLevel=1); \

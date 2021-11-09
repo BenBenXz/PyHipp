@@ -11,6 +11,11 @@
 ## /SBATCH -p general # partition (queue)
 #SBATCH -o rplhighpass-sort-slurm.%N.%j.out # STDOUT
 #SBATCH -e rplhighpass-sort-slurm.%N.%j.err # STDERR
+<<<<<<< HEAD
+=======
+
+# LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
+>>>>>>> 2e1efa25ef3ec30fad31de89a887ea842b658319
 
 /data/miniconda3/bin/conda init
 source ~/.bashrc
